@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1618828099032235686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5329769611499025291}
+  - component: {fileID: 3793370479339262939}
+  m_Layer: 0
+  m_Name: ColorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5329769611499025291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618828099032235686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3513191, y: -1.137287, z: 8.5852995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3793370479339262939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618828099032235686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e766b10581d3c4fa94cdb1c06859e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ground: {fileID: 2100000, guid: 2969dbd6619d6a7438721126e0fb5c7f, type: 2}
+  _groundBorder: {fileID: 0}
+  _obstacle: {fileID: 2100000, guid: ef901b18c69501441a186a2e4c5c79b1, type: 2}
+  Colors:
+  - _backgroundColor: {r: 0.76862746, g: 0.56078434, b: 1, a: 0}
+    _groundColor: {r: 0.18431373, g: 0.02745098, b: 0.32156864, a: 0}
+    _groundBorderColor: {r: 0.5529412, g: 0.39215687, b: 0.83137256, a: 1}
+    _obstacleColor: {r: 0.7019608, g: 0, b: 1, a: 0}
+  - _backgroundColor: {r: 0.38431376, g: 0.64705884, b: 0.75294125, a: 1}
+    _groundColor: {r: 0.8117647, g: 0.21176471, b: 0.38431373, a: 1}
+    _groundBorderColor: {r: 0.81960785, g: 0.3764706, b: 0.5254902, a: 1}
+    _obstacleColor: {r: 0.38431376, g: 0.7254902, b: 1, a: 1}
+  - _backgroundColor: {r: 0.45098042, g: 0.3529412, b: 0.5686275, a: 1}
+    _groundColor: {r: 0.9960785, g: 0.61960787, b: 0.23137257, a: 1}
+    _groundBorderColor: {r: 0.81960785, g: 0.6392157, b: 0.3764706, a: 1}
+    _obstacleColor: {r: 0.16470589, g: 0.37647063, b: 0.5411765, a: 1}
+  - _backgroundColor: {r: 0.43921572, g: 0.61960787, b: 0.75294125, a: 1}
+    _groundColor: {r: 0.9960785, g: 0.8588236, b: 0.015686275, a: 1}
+    _groundBorderColor: {r: 0.81960785, g: 0.7647059, b: 0.3764706, a: 1}
+    _obstacleColor: {r: 0.58431375, g: 0.06666667, b: 0.2901961, a: 1}
+  _colors:
+    _backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+    _groundColor: {r: 0, g: 0, b: 0, a: 0}
+    _groundBorderColor: {r: 0, g: 0, b: 0, a: 0}
+    _obstacleColor: {r: 0, g: 0, b: 0, a: 0}
