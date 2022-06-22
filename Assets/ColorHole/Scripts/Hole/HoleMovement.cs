@@ -7,6 +7,8 @@ public class HoleMovement : Singleton<HoleMovement>
     [SerializeField] private float _timer;
     public float Timer { get => _timer; set => _timer = value; }
 
+    [SerializeField] private GameObject _door;
+
     private float elapsedTime;
     [SerializeField] private AnimationCurve curve;
 
@@ -28,6 +30,9 @@ public class HoleMovement : Singleton<HoleMovement>
         {
             transform.position = Vector3.Lerp(transform.position, new Vector3(0, transform.position.y, transform.position.z), curve.Evaluate(elapsedTime / (Timer / 2)));
             GameManager.Instance.Level.ChangeStateRigidbody(false);
+            Vector3 pos = _door.transform.position;
+            pos.y = -0.5f;
+            _door.transform.position = Vector3.Lerp(_door.transform.position, pos, curve.Evaluate(elapsedTime / (Timer / 2)));
         }
         else
         {
