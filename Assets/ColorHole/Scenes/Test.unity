@@ -24325,7 +24325,7 @@ MonoBehaviour:
   ground2DCollider: {fileID: 1543046469}
   GeneratedMeshCollider: {fileID: 543894392}
   initialScale: 0.5
-  _moveSpeed: 10
+  _moveSpeed: 5
 --- !u!4 &2006444419
 Transform:
   m_ObjectHideFlags: 0
